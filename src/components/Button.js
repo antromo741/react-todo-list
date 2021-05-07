@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const Button = ({color, text, text_color}) => {
     return (
@@ -11,6 +12,17 @@ const Button = ({color, text, text_color}) => {
             {text}
         </button>
     )
+}
+
+Button.defaultProps = {
+    color: 'royalblue',
+    text_color: 'white',
+    text: 'Add'
+}
+
+Button.propTypes = {
+    text: PropTypes.string,
+    color: PropTypes.string
 }
 
 export default Button
