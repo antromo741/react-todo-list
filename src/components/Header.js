@@ -11,10 +11,10 @@ const Header = ({ title }) => {
     )
 }
 Header.defaultProps = {
-    title: 'hunterxHunter'
+    title: 'hunterxhunter'
 }
 
 Header.propTypes = {
-    title: PropTypes.string
+    title: PropTypes.string.isRequired,
 }
 export default Header
