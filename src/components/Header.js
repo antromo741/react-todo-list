@@ -7,6 +7,8 @@ const Header = ({ title }) => {
        <header className='header'> 
            <h2>{title}</h2>
            <Button color='green' text='Add'/>
+            <Button color='red' text='Wow' />
+            <Button color='black' text='ReUsable Components' text_color='red' />
        </header>
     )
 }
