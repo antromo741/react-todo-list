@@ -7,5 +7,7 @@ const Header = (props) => {
        </header>
     )
 }
-
+Header.defaultProps = {
+    title: 'hunterxHunter'
+}
 export default Header
