@@ -15,7 +15,7 @@ const Header = ({ title }) => {
            onClick={onClick}
            />
 
-            <Button color='black' text='add' text_color='red' />
+            <Button onClick={onClick} color='black' text='add' text_color='red' />
        </header>
     )
 }
