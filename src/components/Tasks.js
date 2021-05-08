@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Task from './Task.js'
 //Figuring out the limits of the parent component
 const Tasks = ({ tasks }) => {
    
@@ -10,10 +10,7 @@ const Tasks = ({ tasks }) => {
        
         {tasks.map((task) =>(
             <div>
-                <h3 key={task.id}>{task.text} </h3>
-                <h2>{task.day}</h2>
-                
-            
+            <Task key={task.id} task={task} />
             </div>
             
         ))}
