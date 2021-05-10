@@ -4,7 +4,7 @@
       "id": 1,
       "text": "Hey ImData",
       "day": "08/26/1996",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "id": 3,
       "text": "Hey ImDataTooIguess",
       "day": "420",
-      "reminder": true
+      "reminder": false
     }
   ]
 }
